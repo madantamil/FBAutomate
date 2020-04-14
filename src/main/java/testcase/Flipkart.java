@@ -15,6 +15,7 @@ public class Flipkart {
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
 		driver.manage().window().maximize();
+		driver.close();
 
 		
 		}
