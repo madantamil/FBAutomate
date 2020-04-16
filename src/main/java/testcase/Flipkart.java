@@ -14,7 +14,7 @@ public class Flipkart {
 @Test
 	public void execute() {
 
-		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
 		driver.manage().window().maximize();
