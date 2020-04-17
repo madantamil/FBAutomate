@@ -12,13 +12,11 @@ import org.testng.annotations.Test;
 public class Flipkart {
 
 @Test
-	public void execute() {
-
-		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-		ChromeDriver driver = new ChromeDriver();
-		driver.get("https://www.facebook.com/");
-		driver.manage().window().maximize();
-		driver.close();
+	public void execute() throws InterruptedException {
+	Thread.sleep(3000);
+	System.out.println("i am inside test");
+	
+	
 
 		
 		}
