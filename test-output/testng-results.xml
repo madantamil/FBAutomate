@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-04-16T23:23:45 IST" name="Default suite" finished-at="2020-04-16T23:24:18 IST" duration-ms="32890">
+  <suite started-at="2020-04-17T09:28:15 IST" name="Default suite" finished-at="2020-04-17T09:28:49 IST" duration-ms="33900">
     <groups>
     </groups>
-    <test started-at="2020-04-16T23:23:45 IST" name="Default test" finished-at="2020-04-16T23:24:18 IST" duration-ms="32890">
+    <test started-at="2020-04-17T09:28:15 IST" name="Default test" finished-at="2020-04-17T09:28:49 IST" duration-ms="33900">
       <class name="testcase.Flipkart">
-        <test-method signature="execute()[pri:0, instance:testcase.Flipkart@30b7c004]" started-at="2020-04-16T23:23:45 IST" name="execute" finished-at="2020-04-16T23:24:18 IST" duration-ms="32853" status="FAIL">
+        <test-method signature="execute()[pri:0, instance:testcase.Flipkart@30b7c004]" started-at="2020-04-17T09:28:15 IST" name="execute" finished-at="2020-04-17T09:28:49 IST" duration-ms="33858" status="FAIL">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[chrome not reachable
@@ -15,8 +15,8 @@
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'LAPTOP-Q2STVJ3V', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\madan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2f7aedf0c58ece3d1b6f986c3bdeccad]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\madan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58526}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e2a1efbf7b544f60fc81dee9eb997971]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
@@ -24,8 +24,8 @@ Session ID: 2f7aedf0c58ece3d1b6f986c3bdeccad]]>
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'LAPTOP-Q2STVJ3V', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\madan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2f7aedf0c58ece3d1b6f986c3bdeccad
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\madan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58526}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e2a1efbf7b544f60fc81dee9eb997971
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
