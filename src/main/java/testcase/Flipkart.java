@@ -26,6 +26,7 @@ public class Flipkart {
 		driver.get("https://www.google.com");
 		driver.manage().window().maximize();
 		System.out.println("Success - pipeline 2 single pipeline");
+		System.out.println("Flipkart - MadanTamil credential");
 		
 
 	}
