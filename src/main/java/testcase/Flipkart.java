@@ -25,6 +25,7 @@ public class Flipkart {
 		driver=new ChromeDriver();
 		driver.get("https://www.google.com");
 		driver.manage().window().maximize();
+		System.out.println("Success - pipeline 2 single pipeline");
 		
 
 	}
